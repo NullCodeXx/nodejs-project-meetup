@@ -18,6 +18,9 @@
   "homepage": "https://github.com/djaafarcode/nodejs-project-meetup#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "express-basic-auth": "^1.1.2",
+    "htpasswd": "^2.4.0",
+    "http-auth": "^3.2.3"
   }
 }

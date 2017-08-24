@@ -41,4 +41,22 @@ todo list with nodeJs ad express and template mustache
     3. create an handler for `/auth` which display the data received
 
 doc : https://stackoverflow.com/a/12008719
+
+__________________________ AUTHENTIFICATION __________________________
+doc : https://www.npmjs.com/package/express-basic-auth
+
+*First Node - Auth Middleware*:
+
+We are going to restrict access to `/private` using
+`http-auth`: https://www.npmjs.com/package/http-auth
+
+Instructions:
+
+1. generate a password file:
+    - install htpasswd: `sudo apt install apache2-utils` //npm install htpasswd
+   - add a new user: `htpasswd -c .htpasswd <username>`
+   - add `.htpasswd` to `.gitignore`
+2. install `http-auth` npm install http-auth
+3. initialize the `http-auth` middleware
+4. create a new handler for `/private` and register the middleware
  */
