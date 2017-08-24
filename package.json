@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-project-meetup",
+  "version": "0.0.1",
+  "description": "Lire le fichier README.md (MiddleWar)",
+  "main": "middlewar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaafarcode/nodejs-project-meetup.git"
+  },
+  "author": "D. BOUMAZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djaafarcode/nodejs-project-meetup/issues"
+  },
+  "homepage": "https://github.com/djaafarcode/nodejs-project-meetup#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
